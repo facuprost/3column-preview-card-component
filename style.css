@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-size: 15px;
+}
+
+:root {
+    --title: 'Big Shoulders Display', sans-serif;
+    --text: 'Lexend Deca', sans-serif;
+    --paragraphs: hsla(0, 0%, 100%, 0.75);
+    --bgHeadingBtn: hsl(0, 0%, 95%);
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 40rem;
+    width: 66rem;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.c1 {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0px 0px 10px;
+}
+
+.c2 {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.c3 {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 10px 10px 0px;
+}
+
+.card img {
+    margin: 3rem;
+}
+
+.card h2 {
+    font-family: var(--title);
+    color: var(--bgHeadingBtn);
+    margin: 0px 0px 3rem 3rem;
+    font-size: 3rem;
+}
+
+.card p {
+    color: var(--paragraphs);
+    font-size: 1.2rem;
+    font-family: var(--text);
+    margin: 0px 1.33rem 2.66rem 2.66rem;
+    text-align: start;
+}
+
+.card input {
+    font-family: var(--text);
+    height: 3.33rem;
+    width: 11.33rem;
+    margin: 6rem 0px 2.66rem 2.66rem;
+    border-radius: 30px;
+    border: none;
+}
+
+.c1 input {
+    color: hsl(31, 77%, 52%);
+    border: hsl(31, 77%, 52%);
+}
+
+.c2 input {
+    color: hsl(184, 100%, 22%);
+}
+
+.c3 input {
+    color: hsl(179, 100%, 13%);
+}
+
+.c1 input:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: var(--bgHeadingBtn);
+    border: 2px solid var(--bgHeadingBtn);
+    cursor: pointer;
+}
+
+.c2 input:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: var(--bgHeadingBtn);
+    border: 2px solid var(--bgHeadingBtn);
+    cursor: pointer;
+}
+
+.c3 input:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: var(--bgHeadingBtn);
+    border: 2px solid var(--bgHeadingBtn);
+    cursor: pointer;
+}
+
